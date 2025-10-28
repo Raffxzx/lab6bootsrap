@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - M. Rafi Al Hakim</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f9fa;
+      scroll-behavior: smooth;
+    }
+    .navbar {
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .hero-section {
+      background: linear-gradient(135deg, #0d6efd, #1a75ff);
+      color: white;
+      padding: 120px 0;
+      text-align: center;
+    }
+    .hero-section h1 {
+      font-weight: 700;
+      font-size: 2.8rem;
+    }
+    .hero-section p {
+      max-width: 650px;
+      margin: 10px auto;
+    }
+    .about-section img {
+      border: 6px solid #fff;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    .card {
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+    .card:hover {
+      transform: translateY(-7px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+    .section-title {
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    footer {
+      background-color: #0d6efd;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">M. Rafi Al Hakim</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#beranda">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="beranda" class="hero-section">
+    <div class="container">
+      <h1>Halo, Saya <span class="fw-bold">M. Rafi Al Hakim</span></h1>
+      <p class="lead mt-3">Mahasiswa Informatika yang berfokus pada pengembangan web modern, desain UI responsif, dan teknologi front-end berbasis Bootstrap.</p>
+      <a href="#portfolio" class="btn btn-light btn-lg mt-4">Lihat Portfolio</a>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="tentang" class="about-section py-5">
+    <div class="container">
+      <h2 class="section-title">Tentang Saya</h2>
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center mb-3 mb-md-0">
+          <img src="c:\Users\arifk\OneDrive\Pictures\Pictures\rafiedited.jpg" alt="Foto M. Rafi Al Hakim" class="img-fluid rounded-circle" width="250">
+        </div>
+        <div class="col-md-8">
+          <h3 class="fw-bold">M. Rafi Al Hakim</h3>
+          <p class="text-muted">Saya adalah mahasiswa <strong>Teknik Informatika</strong> yang memiliki ketertarikan kuat pada dunia <strong>Web Development</strong>. Saya senang merancang dan membangun website yang tidak hanya menarik secara visual tetapi juga memiliki struktur kode yang bersih dan efisien.</p>
+          <p>Saya telah mempelajari beberapa teknologi pengembangan web seperti <strong>HTML, CSS, JavaScript, Bootstrap</strong>, dan sedang mendalami <strong>Python</strong> untuk backend development. Saya selalu berusaha mengembangkan keterampilan baru dan menciptakan proyek yang bermanfaat.</p>
+          <ul class="list-unstyled mt-3">
+            <li><strong>Asal Kampus:</strong> Universitas Pelita Bangsa</li>
+            <li><strong>Program Studi:</strong> Teknik Informatika</li>
+            <li><strong>Email:</strong> <a href="mailto:rafial0211@gmail.com">rafial0211@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO SECTION -->
+  <section id="portfolio" class="py-5 bg-white">
+    <div class="container">
+      <h2 class="section-title">Portfolio Saya</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://via.placeholder.com/400x250/007bff/ffffff?text=Personal+Website" class="card-img-top" alt="Proyek 1">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Personal Website</h5>
+              <p class="card-text text-muted">Website pribadi yang menampilkan profil, keterampilan, dan kontak saya. Dibuat menggunakan HTML, CSS, dan Bootstrap dengan desain clean dan responsif.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://via.placeholder.com/400x250/28a745/ffffff?text=Form+Validation" class="card-img-top" alt="Proyek 2">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Form Validation App</h5>
+              <p class="card-text text-muted">Proyek latihan untuk membuat form input dengan validasi JavaScript dan Bootstrap. Fokus pada user experience dan tampilan modern.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://via.placeholder.com/400x250/f39c12/ffffff?text=Responsive+Layout" class="card-img-top" alt="Proyek 3">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Responsive Layout</h5>
+              <p class="card-text text-muted">Sebuah layout website responsif menggunakan sistem grid Bootstrap dan elemen card untuk konten yang dinamis dan elegan.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="kontak" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="section-title">Hubungi Saya</h2>
+      <p class="mb-3 text-muted">Tertarik berkolaborasi atau ingin mengenal lebih dekat? Jangan ragu untuk menghubungi saya melalui email di bawah ini.</p>
+      <a href="mailto:rafialhakim@example.com" class="btn btn-primary btn-lg">Kirim Email</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center py-4">
+    <p class="mb-0">&copy; 2025 | Dibuat oleh <strong>M. Rafi Al Hakim</strong> - Portfolio Bootstrap</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
