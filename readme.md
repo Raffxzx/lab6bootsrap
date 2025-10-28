@@ -1,7 +1,11 @@
 Nama: M. Rafi Al Hakim
+
 NIM: 312410403
+
 Program Studi: Teknik Informatika
+
 Mata Kuliah: Pemrograman Web
+
 Praktikum: 6 – Twitter Bootstrap
 
 # Deskripsi Proyek
